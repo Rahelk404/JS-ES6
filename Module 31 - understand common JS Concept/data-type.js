@@ -10,7 +10,8 @@ data = null;
 console.log(typeof data);
 
 
-// js: primitive data type
+// js: primitive data type -->
+
 
 const price = 50;
 const name = 'badrul';
