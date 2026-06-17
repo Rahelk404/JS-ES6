@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .user-style {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            max-width: 1160px;
+            margin: 50px auto;
+            grid-gap: 20px;
+            row-gap: 30px;
+        }
+
+        .user-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            height: 100%;
+        }
+        .user-card p{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <h1>USER LIST & COMMENT LIST</h1>
+        <h2>API & JSON</h2>
+
+        <button id="load-user" onclick="loadUser()"
+            style="background-color:white; border: 1px solid gray; border-radius: 5px; padding: 10px; color: darkslategray; font-weight:bold;">
+            Load User</button>
+        <button id="load-comments" onclick="loadComment()"
+            style="background-color:white; border: 1px solid gray; border-radius: 5px; padding: 10px; color: darkslategray; font-weight:bold;">Load
+            Comment</button>
+    </div>
+    <section id="user-data" class="user-style">
+
+    </section>
+
+
+    <section id="user-comment" class="body user-style" >
+        
+    </section>
+
+
+    <script src="user.js"></script>
+</body>
+
+</html>

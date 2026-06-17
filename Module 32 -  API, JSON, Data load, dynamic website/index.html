@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API JSON</title>
+    <style>
+        #post-container{
+            max-width: 1160px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 30px;
+        }
+
+        .post-card{
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            height: 100%;
+        }
+        .post-card  p{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="display: flex; justify-content: space-around; font-weight: 900; font-size:50px;">API --------- JSON</h1>
+
+    <H3 style=" display: flex; justify-content: center; font-weight: 800; font-size:xx-large;">More about API & JSON
+    </H3>
+
+    <br>
+
+    <button onclick="loadData()">Load Data</button>
+
+    <br>
+    <button onclick="loadPost()">Load Post</button>
+
+    <h2>All Post</h2>
+    <div id="post-container">
+       
+    </div>
+
+    <script src="script-JSON.js"></script>
+    <script src="posts.js"></script>
+</body>
+
+
+
+</html>
