@@ -10,6 +10,13 @@ This repository serves as a collection of my JavaScript learning journey, coveri
 *   **Module 32 - API, JSON, Data Load**: Hands-on projects demonstrating how to fetch data from APIs, parse JSON, and manipulate the DOM to create dynamic user interfaces.
 *   **ES6-Practice & Weakness List**: A dedicated space for targeted practice tasks and troubleshooting common JavaScript challenges to strengthen my development skills.
 
+## Deployment & Live Access
+I have successfully deployed this repository and its projects across multiple platforms to ensure accessibility and performance:
+
+*   **Netlify**: Used for hosting the primary front-end application to take advantage of its seamless CI/CD integration.
+*   **Surge**: Utilized for quick and straightforward static web publishing.
+*   **Cloudflare Pages**: Deployed to leverage Cloudflare's global edge network for faster loading speeds and enhanced security.
+
 ## Objective
 The goal of this repository is to track my progress in mastering JavaScript, improve my problem-solving skills, and build a solid foundation in front-end development through consistent practice.
 
