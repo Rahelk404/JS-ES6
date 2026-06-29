@@ -7,7 +7,7 @@ const loadUser = () => {
 
 const displayUserData = (users) => {
     const loadUserData = document.getElementById('user-data');
-    // loadUserData.innerHTML = "";
+    loadUserData.innerHTML = "";
 
     users.forEach((user) => {
         const postUser = document.createElement("div");
